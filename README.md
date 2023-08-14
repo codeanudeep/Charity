@@ -27,3 +27,5 @@
 <img width="99" alt="rectangle-91@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/172dc32b-acfd-47b0-8b07-6a11bb2ce5bd">
 
 <img width="391" alt="rectangle-12@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/0784cafe-f634-46a1-aa5d-3318d858f2ff">
+
+<img width="430" alt="image-3@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/ac87def5-e950-4ea1-8c59-71bd5e62b07c">
