@@ -29,3 +29,13 @@
 <img width="391" alt="rectangle-12@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/0784cafe-f634-46a1-aa5d-3318d858f2ff">
 
 <img width="430" alt="image-3@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/ac87def5-e950-4ea1-8c59-71bd5e62b07c">
+
+
+<img width="120" alt="phonepelogo-1@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/030c7318-15cd-4a51-9a0b-d1f325856772">
+
+<img width="32" alt="download-1@2x" src="https://github.com/codeanudeep/Charity/assets/125911402/ddb0df53-3486-4c26-be8d-b119d304bf67">
+
+![group-1](https://github.com/codeanudeep/Charity/assets/125911402/18caa37c-0c2e-4920-9834-f221d9b44b8c)
+
+![group-4](https://github.com/codeanudeep/Charity/assets/125911402/6224be78-3674-42de-84e9-9f93a9a85bb6)
+
