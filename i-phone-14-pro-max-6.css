@@ -1,0 +1,85 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.image-3-icon1 {
+  position: absolute;
+  top: calc(50% - 326px);
+  left: calc(50% - 215px);
+  width: 430px;
+  height: 652px;
+  object-fit: cover;
+  opacity: 0.45;
+}
+.rectangle-div {
+  position: absolute;
+  top: calc(50% - 27.5px);
+  left: calc(50% - 162.5px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet);
+  width: 325px;
+  height: 55px;
+  mix-blend-mode: normal;
+}
+.donate {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: calc(50% - 36.5px);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-outfit);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangle-parent {
+  position: absolute;
+  top: calc(50% + 397px);
+  left: calc(50% - 163px);
+  width: 325px;
+  height: 55px;
+}
+.our-mission-is {
+  margin: 0;
+}
+.empower-through-education {
+  margin-bottom: 0;
+}
+.empower-through-education-we {
+  margin: 0;
+  font-family: var(--font-inherit);
+  font-size: var(--font-inherit);
+  padding-left: 21px;
+}
+.our-mission-is-container {
+  position: absolute;
+  top: calc(50% - 451px);
+  left: calc(50% - 197px);
+  font-size: var(--font-size-base);
+  letter-spacing: -0.04em;
+  line-height: 147.13%;
+  font-family: var(--font-andika);
+  color: var(--color-darkslategray);
+  text-align: left;
+  display: inline-block;
+  width: 393px;
+  opacity: 0;
+}
+.our-mission-is-container.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.iphone-14-pro-max-6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: relative;
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+}

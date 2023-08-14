@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-phone-14-pro-max-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Water Brush:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Andika:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Actor:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:ital,wght@1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playball:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iphone-14-pro-max-2">
+      <img class="image-3-icon5" alt="" src="./public/image-3@2x.png" />
+
+      <a
+        class="iphone-14-pro-max-2-inner"
+        href="./i-phone-14-pro-max-3.html"
+        id="groupLink"
+      >
+        <img class="group-child5" alt="" src="./public/group-1.svg" />
+      </a>
+      <div class="group-div">
+        <img
+          class="group-child6"
+          alt=""
+          src="./public/rectangle-41@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child7"
+          alt=""
+          src="./public/rectangle-81@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child8"
+          alt=""
+          src="./public/rectangle-91@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child9"
+          alt=""
+          src="./public/rectangle-11@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child10"
+          alt=""
+          src="./public/rectangle-10@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child11"
+          alt=""
+          src="./public/rectangle-71@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child12"
+          alt=""
+          src="./public/rectangle-5@2x.png"
+          data-animate-on-scroll
+        />
+
+        <img
+          class="group-child13"
+          alt=""
+          src="./public/rectangle-6@2x.png"
+          data-animate-on-scroll
+        />
+      </div>
+      <div class="in-this-independence-container" data-animate-on-scroll>
+        <span class="in-this-independence-container1">
+          <p class="in-this-independence">
+            In this Independence Day Lets Take A Towards Others Happiness
+          </p>
+          <p class="in-this-independence">.........</p>
+        </span>
+      </div>
+      <div class="when-we-give" data-animate-on-scroll>
+        When we give cheerfully and accept gratefully, Everyone is blessed
+      </div>
+    </div>
+
+    <script>
+      var groupLink = document.getElementById("groupLink");
+      if (groupLink) {
+        groupLink.addEventListener("click", function (e) {
+          window.location.href = "./i-phone-14-pro-max-3.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

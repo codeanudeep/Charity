@@ -1,0 +1,229 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.image-3-icon2,
+.iphone-14-pro-max-5-child {
+  position: absolute;
+  top: calc(50% - 326px);
+  left: calc(50% - 215px);
+  width: 430px;
+  height: 652px;
+  object-fit: cover;
+  opacity: 0.45;
+}
+.iphone-14-pro-max-5-child {
+  top: calc(50% - 390px);
+  left: calc(50% - 196px);
+  width: 391px;
+  height: 230px;
+  opacity: 0;
+}
+.iphone-14-pro-max-5-child.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.poverty-donation {
+  position: absolute;
+  top: calc(50% - 144px);
+  left: calc(50% - 206px);
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.04em;
+  line-height: 156.63%;
+  color: #b12727;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+.days-left,
+.donation-for-poverty {
+  position: absolute;
+  letter-spacing: -0.04em;
+  line-height: 143.63%;
+}
+.donation-for-poverty {
+  top: calc(50% - 97px);
+  left: calc(50% - 196px);
+  font-size: var(--font-size-13xl);
+  color: var(--color-teal);
+  display: flex;
+  align-items: center;
+  width: 339px;
+  height: 73px;
+}
+.days-left {
+  top: calc(50% - 8px);
+  left: calc(50% - 193px);
+  font-size: var(--font-size-mini);
+  color: #7e7b7b;
+}
+.frame-child {
+  position: absolute;
+  width: calc(100% - 321px);
+  top: calc(50% - 59px);
+  right: 321px;
+  left: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  height: 70px;
+}
+.div,
+.raised {
+  position: absolute;
+  top: 6px;
+  left: 79px;
+  display: inline-block;
+  width: 67px;
+}
+.div {
+  top: 22px;
+  left: 9px;
+  font-size: var(--font-size-mini);
+  text-align: center;
+  width: 52.96px;
+  height: 25px;
+}
+.rs-17623-of,
+.supporters {
+  position: absolute;
+  top: 28px;
+  left: 79px;
+}
+.supporters {
+  top: 9px;
+  left: 271px;
+  text-decoration: underline;
+  display: inline-block;
+  width: 137px;
+  height: 39px;
+}
+.frame-item {
+  position: absolute;
+  top: 80px;
+  left: 8px;
+  width: 368px;
+  height: 2px;
+}
+.download-1-icon {
+  position: absolute;
+  width: calc(100% - 359px);
+  top: calc(50% + 39px);
+  right: 350px;
+  left: 9px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 32px;
+  object-fit: cover;
+}
+.ngos-india {
+  position: absolute;
+  top: calc(50% + 43px);
+  left: calc(50% - 146.5px);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-actor);
+  color: var(--color-teal);
+  display: inline-block;
+  width: 127px;
+  height: 32px;
+}
+.ellipse-group,
+.group-child1 {
+  position: absolute;
+  top: calc(50% + 22px);
+  left: calc(50% - 196px);
+  width: 391px;
+  height: 118px;
+}
+.group-child1 {
+  top: calc(50% - 27.5px);
+  left: calc(50% - 162.5px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-blueviolet);
+  width: 325px;
+  height: 55px;
+  mix-blend-mode: normal;
+}
+.group-child1:active {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.donate1 {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: calc(50% - 36.5px);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-outfit);
+  color: var(--color-white);
+  text-align: left;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 380px);
+  left: calc(50% - 163px);
+  width: 325px;
+  height: 55px;
+}
+.span {
+  color: var(--color-black);
+}
+.read-more {
+  color: var(--color-teal);
+}
+.our-purpose-is-rooted-in-the-b {
+  margin: 0;
+}
+.our-mission-is-container1 {
+  position: absolute;
+  top: calc(50% + 160px);
+  left: calc(50% - 187px);
+  font-size: 17px;
+  letter-spacing: -0.04em;
+  line-height: 147.13%;
+  display: inline-block;
+  width: 393px;
+  cursor: pointer;
+  color: var(--color-darkslategray);
+}
+.powered-by {
+  position: absolute;
+  top: 30px;
+  left: 19px;
+  font-family: var(--font-inria-sans);
+}
+.phonepe-logo-1-icon {
+  position: absolute;
+  top: 13px;
+  left: 89px;
+  width: 120px;
+  height: 53px;
+  object-fit: cover;
+}
+.iphone-14-pro-max-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-andika);
+}

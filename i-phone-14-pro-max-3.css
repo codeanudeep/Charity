@@ -1,0 +1,110 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.image-3-icon4 {
+  position: absolute;
+  top: calc(50% - 326px);
+  left: calc(50% - 215px);
+  width: 430px;
+  height: 652px;
+  object-fit: cover;
+  opacity: 0.45;
+}
+.iphone-14-pro-max-3-child {
+  position: absolute;
+  top: calc(50% + 345px);
+  left: calc(50% - 45px);
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+.group-child2,
+.group-child3,
+.group-child4,
+.rectangle-icon {
+  position: absolute;
+  top: calc(50% - 189.5px);
+  left: calc(50% - 191px);
+  border-radius: var(--br-8xl);
+  width: 225px;
+  height: 178px;
+  object-fit: cover;
+}
+.group-child2,
+.group-child3,
+.group-child4 {
+  top: calc(50% + 11.5px);
+  left: calc(50% - 34px);
+}
+.group-child3,
+.group-child4 {
+  top: calc(50% - 166.5px);
+  left: calc(50% + 69px);
+  width: 122px;
+  height: 132px;
+}
+.group-child4 {
+  top: calc(50% + 34.5px);
+  left: calc(50% - 191px);
+}
+.rectangle-container {
+  position: absolute;
+  top: calc(50% - 415px);
+  left: calc(50% - 190px);
+  width: 382px;
+  height: 379px;
+  opacity: 0;
+}
+.a-small-amount-container.animate,
+.help-the-poor-container.animate,
+.rectangle-container.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-top;
+}
+.help-the-poor {
+  margin: 0;
+}
+.help-the-poor-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.a-small-amount-container,
+.help-the-poor-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+}
+.help-the-poor-container {
+  top: calc(50% + 19px);
+  left: calc(50% - 186px);
+  letter-spacing: 0.06em;
+  line-height: 145.5%;
+  width: 372px;
+  height: 167px;
+}
+.a-small-amount-container {
+  top: calc(50% + 216px);
+  left: calc(50% - 170px);
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.1em;
+  color: var(--color-black);
+  width: 339px;
+}
+.iphone-14-pro-max-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: #14198f;
+  font-family: var(--font-playball);
+}
