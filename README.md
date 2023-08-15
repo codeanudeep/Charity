@@ -39,3 +39,8 @@
 
 ![group-4](https://github.com/codeanudeep/Charity/assets/125911402/6224be78-3674-42de-84e9-9f93a9a85bb6)
 
+![line-1](https://github.com/codeanudeep/Charity/assets/125911402/79135232-7ff0-49c1-a9cd-05ecc3447788)
+
+![line-2](https://github.com/codeanudeep/Charity/assets/125911402/a7a73ea0-2392-42a1-9958-057b51c358f7)
+
+![line-3](https://github.com/codeanudeep/Charity/assets/125911402/7aa7a262-284e-4084-b1b4-d5232b4f5c91)
